@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-const metersToYards float64  = 1.09361
+const metersToYards float64 = 1.09361
 
-func main(){
+func main() {
 	var meters float64
 	fmt.Print("Enter the meters swam: ")
 	fmt.Scan(&meters)
-	yards := meters*metersToYards
+	yards := meters * metersToYards
 	fmt.Println(meters, "meters is", yards, "yards")
 }

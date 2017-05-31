@@ -18,7 +18,7 @@ func main() {
 	// fallthrough (break) is not needed or no default fallthrough
 	//fallthrough is optional
 	/*
-	-- we can specify fallthrough by explicitly stating it
-	-- break isn't needed like in other languages
+		-- we can specify fallthrough by explicitly stating it
+		-- break isn't needed like in other languages
 	*/
 }

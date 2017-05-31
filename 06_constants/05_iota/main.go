@@ -4,14 +4,14 @@ import "fmt"
 
 const (
 	a = iota // 0
-	b	 // 1
-	c	 // 2
+	b        // 1
+	c        // 2
 )
 
 const (
 	d = iota // 0
-	e	 // 1
-	f	 // 2
+	e        // 1
+	f        // 2
 )
 
 func main() {
