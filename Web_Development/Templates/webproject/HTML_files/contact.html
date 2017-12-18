@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Math Academy</title>
+	<meta charset = "utf-8" />
+	<link rel ="stylesheet" type = "text/css" href="header.css">
+	<link rel ="stylesheet" type = "text/css" href="contact.css" >
+</head>
+<body>
+	<h1>Math Academy</h1>
+	<div class="container">
+	<header>
+		<nav class = "top-nav">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Tutorials</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<div class="section-side">
+		<h2>Contact Us</h2>
+			<div class = "left-nav">
+				<ul>
+				<p>MATH ACADEMY</P>
+					{{range $element1 := .Addressline1}}
+					<li>{{$element1}}</li>
+					{{end}}
+				</ul>
+			</div>
+			<div class = "right-nav">
+				<ul>
+				<p>HEAD OFFICE</P>
+					{{range $element2 := .Addressline2}}
+					<li>{{$element2}}</li>
+					{{end}}
+					<!--<li>Vignana Jyothi Group</li>
+					<li>of Institutions,</li>
+					<li>H.No.7-1-4, Begumpet</li>
+					<li>Hyderabad-500 016.</li>
+					<li>Phone : 040-23731555</li>-->
+				</ul>
+			</div>
+		</div>	
+	</section>
+	<footer class = "bottom-side">
+		&copy; copywrite MathAcademy.com
+	</footer>
+	</div>
+</body>
+</html>
